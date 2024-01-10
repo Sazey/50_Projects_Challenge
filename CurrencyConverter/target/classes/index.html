@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css" />
     <title>Currency Converter</title>
 </head>
 <body>
@@ -11,20 +12,20 @@
         <div class="date">
             <input type="date">
         </div>
-        <div class="currencies">
-            <div class="base-currency">
-                <select>
-                    <option>USD</option>
-                </select>
-                <input type="text">
-            </div>
-            <div class="quote-currency">
-                <select>
-                    <option>EUR</option>
-                </select>
-                <input type="text">
-            </div>
+        <!-- <div class="currencies"> -->
+        <div class="base-currency">
+            <select class="currency-options">
+                <option>USD</option>
+            </select>
+            <input class="amount" type="text" inputmode="numeric">
         </div>
+        <div class="quote-currency">
+            <select class="currency-options">
+                <option>EUR</option>
+            </select>
+            <input class="amount" type="text" inputmode="numeric">
+        </div>
+        <!-- </div> -->
     </div>
 </body>
 </html>
