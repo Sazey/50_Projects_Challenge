@@ -15,9 +15,9 @@
 }   
 
 .date{
+    display: block;
     width: 120px;
     height: 32px;
-    display: block;
     margin-top: 16px;
 
 }
@@ -25,24 +25,30 @@
 .base-currency{
     display: flex;
     margin-top: 16px;
+    margin-right: 30px;
 
 }
 
-.quote-currency{
+.base-currency-options{
+    display: block;
+}
+
+/* .quote-currency{
     display: flex;
     margin-top: 16px;
 
 
-}       
+}        */
 
 .currency-options{
+    display: flex;
     width: 120px;
     height: 48px;
     margin-top: 16px;
 }
 
 .amount{
-    display: flex;
+    display: block;
     width: 120px;
     height: 48px;
     margin-top: 16px;

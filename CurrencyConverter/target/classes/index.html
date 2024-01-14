@@ -12,20 +12,22 @@
         <div class="date">
             <input type="date">
         </div>
-        <!-- <div class="currencies"> -->
-        <div class="base-currency">
-            <select class="currency-options">
-                <option>USD</option>
-            </select>
-            <input class="amount" type="text" inputmode="numeric">
+        <div class="currencies">
+            <div class="base-currency">
+                <input list="base-currency-options" id="base-currency-options"/>
+                <datalist class="base-currency-options" id="base-currency-options">
+                    <option value="USD">
+                </datalist>
+                <input class="amount" type="text" inputmode="numeric">
+            </div>
+            <!-- <div class="quote-currency">
+                <input list="curency-options" id="currency-options"/>
+                <datalist class="currency-options" id="curency-options">
+                    <option value="EUR">
+                </datalist>
+                <input class="amount" type="text" inputmode="numeric">
+            </div> -->
         </div>
-        <div class="quote-currency">
-            <select class="currency-options">
-                <option>EUR</option>
-            </select>
-            <input class="amount" type="text" inputmode="numeric">
-        </div>
-        <!-- </div> -->
     </div>
 </body>
 </html>
